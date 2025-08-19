@@ -1,0 +1,19 @@
+* EXCEPTION:
+* ERROR - :paused= method missing on ~Array~.
+
+#+begin_src ~Array#inspect~
+[]
+#+end_src ~Array#inspect~
+
+
+
+The method named
+  :paused=
+with args
+  [true]
+doesn't exist on [Array, #<Class:#<Array:0x7f817392c050>>, Enumerable].
+
+(suggestions above)
+** Backtrace:
+*** app/main.rb:207:in gameplay_tick
+*** app/main.rb:366:in tick
